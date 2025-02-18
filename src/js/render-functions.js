@@ -5,8 +5,7 @@ import "izitoast/dist/css/iziToast.min.css";
 
 export function renderImages(images) {
   const gallery = document.querySelector(".gallery");
-  gallery.innerHTML = ""; // Clear previous results
-
+  gallery.innerHTML = ""; 
   if (images.length === 0) {
     iziToast.error({
       title: "Error",
