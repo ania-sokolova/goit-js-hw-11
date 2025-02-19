@@ -1,4 +1,3 @@
-
 import axios from "axios";
 
 const apiKey = "48848365-f4e25352a2e58b0aa69d4606d";
@@ -16,8 +15,3 @@ export async function fetchImages(query) {
     throw error; 
   }
 }
-
-
-
-
-
